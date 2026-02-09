@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("welcome to paas app from aws!");
+  res.send("version 2!");
 });
 
 const port = process.env.PORT || 3000;
