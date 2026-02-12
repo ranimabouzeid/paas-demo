@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("version 2!");
+  res.send("new version!");
 });
 
 const port = process.env.PORT || 3000;
